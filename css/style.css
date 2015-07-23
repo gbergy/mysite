@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+div {
+	clear: both;
+}
+
+body {
+	font-size: 63.5%;
+	font-family: arial, sans-serif;
+	/* wiki colors */
+	background-color: grey;
+}
+
+nav {
+  background: #fff;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  display: block;
+  width: 100%;
+  z-index: 600;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/***** FLEX BOX START *****/
+.flexwrapper {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-moz-box-orient:vertical;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: start;
+	-moz-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	/*-webkit-box-align: start;
+	-moz-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;*/
+	height: 100%; 
+}
+
+.wrapper {
+	display: flex;
+	flex-direction:column;
+}
+
+.box {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+	flex:1;
+}
+
+.box1 {
+	background:#1abc9c;
+}
+
+.box2 {
+	background:#3498db;
+}
+
+.box3 {
+	background:#9b59b6;
+}
+
+.box4 {
+	background:#FF6262;
+}
+
+/**** FLEX BOX END *****/
+
+.name {
+	font-family: Helvetica; 
+	font-size: 16px;
+	color: black;
+}
+
+.navbar {
+	float: right;
+}
+
+.list-span{
+  display: inline-block;
+  padding-left: 45px;
+  padding-top: 8px;
+  font-size: 1.4em;
+  color: black;
+}
